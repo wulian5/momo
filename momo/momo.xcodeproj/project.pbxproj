@@ -15,6 +15,7 @@
 		F44BA6731C8701340050AF74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F44BA6711C8701340050AF74 /* LaunchScreen.storyboard */; };
 		F44BA67E1C8701340050AF74 /* momoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F44BA67D1C8701340050AF74 /* momoTests.m */; };
 		F44BA6891C8701340050AF74 /* momoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F44BA6881C8701340050AF74 /* momoUITests.m */; };
+		F44BA6981C8701980050AF74 /* Peraon.m in Sources */ = {isa = PBXBuildFile; fileRef = F44BA6971C8701980050AF74 /* Peraon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F44BA6841C8701340050AF74 /* momoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = momoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44BA6881C8701340050AF74 /* momoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = momoUITests.m; sourceTree = "<group>"; };
 		F44BA68A1C8701340050AF74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44BA6961C8701980050AF74 /* Peraon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peraon.h; sourceTree = "<group>"; };
+		F44BA6971C8701980050AF74 /* Peraon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Peraon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				F44BA6671C8701340050AF74 /* AppDelegate.m */,
 				F44BA6691C8701340050AF74 /* ViewController.h */,
 				F44BA66A1C8701340050AF74 /* ViewController.m */,
+				F44BA6961C8701980050AF74 /* Peraon.h */,
+				F44BA6971C8701980050AF74 /* Peraon.m */,
 				F44BA66C1C8701340050AF74 /* Main.storyboard */,
 				F44BA66F1C8701340050AF74 /* Assets.xcassets */,
 				F44BA6711C8701340050AF74 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F44BA6981C8701980050AF74 /* Peraon.m in Sources */,
 				F44BA66B1C8701340050AF74 /* ViewController.m in Sources */,
 				F44BA6681C8701340050AF74 /* AppDelegate.m in Sources */,
 				F44BA6651C8701340050AF74 /* main.m in Sources */,
