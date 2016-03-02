@@ -10,9 +10,5 @@
 
 @interface Peraon : UIViewController
 
-/**name*/
-@property (nonatomic,strong) NSString *name;
 
-/**age*/
-@property (nonatomic,assign) int age;
 @end
